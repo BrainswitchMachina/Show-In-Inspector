@@ -15,3 +15,8 @@
 
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+*.DotSettings
+Assets/UnityVS/*
+
+Assets/UnityVS.meta
