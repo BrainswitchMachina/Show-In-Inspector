@@ -12,7 +12,7 @@ public class ShowInInspectorMonoBehaviourExample : MonoBehaviour
     [ShowInInspector]
     private string _textTest = "Test";
 
-    #if UNITY_4_3
+    #if UNITY_4_3 || UNITY_4_5 || UNITY_4_6 || UNITY_5
     [ShowInInspector]
     public Quaternion rotationPropertyTest
     {

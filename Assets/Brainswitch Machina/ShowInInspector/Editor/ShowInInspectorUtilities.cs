@@ -11,7 +11,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #endregion
 
 // Wish there was a way to check if Unity version is equal to and above...
-#if UNITY_4_3 || UNITY_4_5 || UNITY_5
+#if UNITY_4_3 || UNITY_4_5 || UNITY_4_6 || UNITY_5
 #define hasSerializedPropertyTypeQuaternion
 #endif
 
