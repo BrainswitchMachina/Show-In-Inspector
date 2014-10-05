@@ -6,10 +6,12 @@ Unity 3D utility for showing non-serialized (static, private, protected) fields 
 Example usage:
 
 Static field:
-	[ShowInInspector]
-	public static int staticIntExample;
+
+    [ShowInInspector]
+    public static int staticIntExample;
 
 Property (with serialized private field for saving):
+
     [SerializeField, HideInInspector]
     private Vector2 _vector2;
 
